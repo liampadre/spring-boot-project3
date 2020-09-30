@@ -14,10 +14,6 @@
     <name>projectweb3</name>
     <description>Demo project for Spring Boot H2</description>
 
-    <properties>
-        <java.version>11</java.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
