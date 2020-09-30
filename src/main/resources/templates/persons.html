@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head"></head>
+<body>
+    Person: <div th:text="${myperson.name} + ', ' +  ${myperson.lastname} + ' - ' + ${myperson.age}"></div>
+</body>
+</html>
